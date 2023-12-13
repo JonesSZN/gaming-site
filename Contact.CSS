@@ -86,7 +86,7 @@ ul {
   padding: 140px;
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 80px;
 }
 
 .contact-left {
@@ -124,7 +124,7 @@ ul {
   margin: 0;
 }
 #Max-width {
-  max-width: 450px;
+  max-width: 500px;
 }
 
 .contact-right {
