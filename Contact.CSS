@@ -32,13 +32,27 @@ nav {
   cursor: pointer;
 }
 li a {
+  font-size: 14px;
+  border-radius: 999px;
+  padding: 10px 16px;
+  background-color: rgba(255, 255, 255, 0);
   color: white;
   text-decoration: none;
+  transition: ease-in-out;
+  transition: 0.3s;
+  cursor: pointer;
+}
+li a:hover {
+  transition: ease-in-out;
+  transition: 0.3s;
+  border-radius: 999px;
+  padding: 10px 16px;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 ul {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 24px;
   list-style: none;
   padding: 0;
   color: white;
